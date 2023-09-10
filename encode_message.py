@@ -17,9 +17,10 @@ if __name__ == "__main__":
     encrypted_message = encrypt.encrypt(message, password)
 
     # Encode image
-    # encoder.encode_image(cover_image, encrypted_message, output_image)
+    encoder.encode_image(cover_image, encrypted_message, output_image)
     
     # Encode text
-    sample_text = "Xin chao"
-    encoder.encode_text(sample_text, encrypted_message, output_image)
+    # sample_text = "Xin chao"
+    # output = "sample/text_encoded.png"
+    # encoder.encode_text(sample_text, encrypted_message, output_image)
     
